@@ -1,0 +1,54 @@
+*target*
+*node_modules*
+*.jar
+*.war
+*.ear
+*.class
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# STS (Spring Tool Suite)
+.springBeans
+
+#Clover
+.clover/
+
+# IntelliJ
+.idea
+*.iml
+
+# yarn specific
+**/src/main/frontend/dist/**
+
+#coverage & tests
+coverage/
+test-report.json
+
+#build
+dist/
+build/
